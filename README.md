@@ -1,23 +1,41 @@
-# AI-Powered-Marketplace-for-Small-Local-Sellers
+# “AI-Based Skin Allergy Detection System with Natural Remedies” 👇
 # Abstract
-This project aims to develop an AI-based platform that helps economically weaker individuals and small-scale sellers promote and sell their products online.
-Many local vendors lack digital knowledge and marketing skills, which limits their reach. The proposed system uses artificial intelligence to assist sellers by
-automatically generating product descriptions, suggesting pricing, and recommending the best audience for their products. It also provides a simple and 
-user-friendly interface so that even non-technical users can easily upload and sell their products. The platform helps increase visibility, improve sales,
-and empower small businesses in the digital economy.
+This project presents an AI-based Skin Allergy Detection System that identifies common skin problems such as rashes, irritation, and allergies using user inputs or images. The system uses machine learning techniques to analyze the symptoms or images and predict the type of skin condition. Based on the result, it provides suitable natural home remedies like aloe vera, neem, and coconut oil to help reduce the problem. The aim of this project is to offer a quick, cost-effective, and user-friendly solution for basic skin care without relying on chemical treatments. This system can help users take early action and maintain healthy skin.
 
 # Introduction
-Many small and local sellers, especially from rural or low-income backgrounds, struggle to sell their products due to lack of digital knowledge, marketing skills, and online platforms. As a result, their products do not reach a wider audience, limiting their income and growth.
-
-This project aims to develop an AI-powered marketplace that helps these sellers easily upload and sell their products online. The system uses artificial intelligence to assist with tasks like generating product descriptions, suggesting prices, and recommending products to customers. It provides a simple and user-friendly platform so that even non-technical users can use it easily. This helps increase visibility, improve sales, and support small businesses.
+Skin allergies are common problems caused by pollution, chemicals, food, and environmental factors. Many people experience symptoms like itching, redness, rashes, and irritation. Early detection is important to prevent severe conditions.
+With the advancement of Artificial Intelligence (AI), it is possible to detect skin diseases quickly and accurately. This project aims to develop an AI-based system that identifies skin allergies and suggests natural home remedies. The system provides a safe, affordable, and easy solution for users without relying heavily on chemical treatments.
 
 # Methodology
-1.Seller registers and uploads product details.
+The system follows these steps:
 
-2.AI generates description and suggests price.
+Data Collection:
+Collect skin images or user symptoms (itching, redness, etc.)
 
-3.Data is stored in database.
+Preprocessing:
+Clean and resize images, remove noise, and normalize data
 
-4.Buyers browse products.
+Model Selection:
+Use Machine Learning / Deep Learning (CNN for images)
 
-5.AI recommends products based on user interest
+Training:
+Train the model using dataset of skin diseases
+
+Prediction:
+Model predicts type of skin allergy
+
+Remedy Suggestion:
+Match prediction with database of natural remedies
+
+# Literature Review
+
+Several studies have been conducted on skin disease detection using AI:
+
+Research shows that Convolutional Neural Networks (CNN) are effective for image-based skin disease detection.
+
+Many systems focus only on disease detection but do not provide natural remedies.
+
+Some applications provide general skincare advice but lack personalization.
+
+This project improves existing systems by combining AI detection with home remedy suggestions, making it more user-friendly and practical.
+
